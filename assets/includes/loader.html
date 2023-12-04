@@ -1,0 +1,12 @@
+<div id="loader-page">
+    <div id="loader"></div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(window).on('load', function() {
+    setTimeout(function() {
+        $("#loader-page").fadeOut("slow");
+    }, 1000);
+});
+</script>

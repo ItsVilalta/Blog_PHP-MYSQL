@@ -1,0 +1,123 @@
+.container-Post {
+    width: 60%;
+    min-height: 700px;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+
+    -webkit-box-shadow: 0px 0px 39px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 39px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 39px -6px rgba(0, 0, 0, 0.75);
+
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.main-box-Post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    /* max-height: 500px; */
+    /* min-height: 820px; */
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    background-color: #432c3d;
+    /* background: linear-gradient(-135deg, rgba(200, 80, 192, 0.5), rgba(65, 88, 208, 0.5)); */
+
+    box-shadow: inset 0px 0px 17px 9px rgba(0, 0, 0, 0.5);
+
+    /* -webkit-box-shadow: 0px 0px 37px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 37px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 37px -10px rgba(0, 0, 0, 0.75); */
+
+    /* border: 2px solid blue; */
+}
+
+
+.container-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background: #7f8ff4;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 12px 13px;
+}
+
+.btn--primary:hover {
+    background: #6f7ecf;
+}
+
+.btn--primary:active {
+    background: #7f8ff4;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn--inside {
+    margin-left: -96px;
+    border-radius: 20px;
+}
+
+.boto {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.form__field {
+    width: 310px;
+    max-width: 360px;
+    background: #fff;
+    /* color: #a3a3a3; */
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 22px 18px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Estilos para el campo de entrada de archivos */
+.form__field[type="file"] {
+    padding: 15px;
+    border: 2px solid #7f8ff4;
+    border-radius: 20px;
+    background: #fff;
+    color: #7f8ff4;
+    cursor: pointer;
+}
+
+/* Aplicar el estilo del botón a los botones dentro del formulario */
+.form .btn {
+    padding: 12px 13px;
+    border-radius: 20px;
+}
+
+.img_detall {
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
